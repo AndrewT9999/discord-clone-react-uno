@@ -4,14 +4,15 @@ import 'firebase/auth'
 import 'firebase/storage'
 import 'firebase/database'
 import "firebase/performance";
-var firebaseConfig = {
-    apiKey: "AIzaSyC_flKosPn-LPJF8JsKT3-IhlI3RDMOjqk",
-    authDomain: "discord-clone-12045.firebaseapp.com",
-    projectId: "discord-clone-12045",
-    storageBucket: "discord-clone-12045.appspot.com",
-    messagingSenderId: "889501806287",
-    appId: "1:889501806287:web:a96c4cf73eee4e8b2c11ba"
-  };
+const firebaseConfig = {
+  apiKey: "AIzaSyAHrmAC-NpDuhRWUNbP6_MObQBCNdTohCE",
+  authDomain: "testing-discord-clone.firebaseapp.com",
+  projectId: "testing-discord-clone",
+  storageBucket: "testing-discord-clone.appspot.com",
+  messagingSenderId: "920620043138",
+  appId: "1:920620043138:web:5c10d2e99ac1a0dc175d9b",
+  measurementId: "G-XW72N56RL1"
+};
   firebase.initializeApp(firebaseConfig);
   export const firestore=firebase.firestore();
   export default firebase;
